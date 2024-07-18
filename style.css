@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-container {
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+.cardiac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-box {
+    background-color: hsl(0, 0%, 99%);
+    width: 20em;
+    font-family: Figtree;
+    border-radius: 15px;
+    border: #444242 solid 1px;
+    border-right: #000 9px solid;
+    border-bottom: #000 9px solid;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.card-box img {
+    border-radius: 1rem;
+    width: 18rem;
+}
+.btn-1 {
+    background-color: hsl(47, 88%, 63%);
+    margin: 1.2rem 0 .8rem 0;
+    padding: .5rem;
+    max-width: 6rem;
+    font-weight: 800;
+    border-radius: .4rem;
+}
+.head-1{
+    margin-bottom: 1rem;
+}
+.card-box a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: hsl(47, 88%, 63%);
+}
+p {
+    margin-top: 1rem;
+    font-size: 16px;
+    color: rgb(121, 109, 109);
+}
+.image {
+    margin: .8rem 0 .9rem 0rem;
+    display: flex;
+    /* flex-direction: column; */
+}
+.image img {
+    width: 2em;
+}
+.image h4 {
+    margin: .5rem;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
